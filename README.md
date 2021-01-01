@@ -13,7 +13,7 @@ Clonar el repositorio en tu carpeta de themes y agregar en tu init.el
 
 ~~~
 (add-to-list 'custom-theme-load-path "~/.emacs.d/initFileEmacs/myThemes/Liskov-theme")
-(load-theme 'liskov t)
+(load-theme 'niklaus t)
 ~~~
 
 ![Screenshot Niklaus-theme](./img/Linked5.png)
@@ -21,3 +21,11 @@ Clonar el repositorio en tu carpeta de themes y agregar en tu init.el
 
 ### Articulos
 <https://computerhistory.org/profile/niklaus-wirth/>
+
+### Themes
+Temas que te gustaria echarles un ojo:
+- [Liskov-theme](https://github.com/GuillermoGAndres/Liskov-theme)
+- [Hoare-theme](https://github.com/GuillermoGAndres/Hoare-theme)
+- [Dijkstra-theme](https://github.com/GuillermoGAndres/Dijkstra-theme)
+- [Turing-theme](https://github.com/GuillermoGAndres/Turing-theme)
+- [Niklaus-theme](https://github.com/GuillermoGAndres/Niklaus-theme)
