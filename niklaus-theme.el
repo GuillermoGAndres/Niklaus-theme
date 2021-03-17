@@ -43,23 +43,23 @@
       (niklaus-mode-line-black      "#000000")
       (niklaus-mode-line-white      "#EFFBFF")
       )
-  
+
   (custom-theme-set-faces
    'niklaus
 
    ;; ----------------- Frame stuff --------------------
-   ;; white #F6F3E8, 
+   ;; white #F6F3E8,
    ;;`(default ((t (:background ,niklaus-background :foreground ,niklaus-foreground))))
    ;;`(default ((t (:background "#000000" :foreground "#EFFBFF" :weight semibold))))
-   ;;`(default ((t (:background "#000000" :foreground "#ffffff" :weight semibold)))) 
-   `(default ((t (:background "#000000" :foreground "#F6F3E8" :weight semibold)))) 
+   ;;`(default ((t (:background "#000000" :foreground "#ffffff" :weight semibold))))
+   `(default ((t (:background "#000000" :foreground "#F6F3E8" :weight semibold))))
 
    `(cursor  ((t (:background ,niklaus-light-blue))))
    ;;Marcado de la linea actual si es que esta activado.
    `(hl-line ((t (:background ,niklaus-mid-gray))))
-   ;; Mode-line    
-   ;'(mode-line ((t (:background "#B4B4B4" :foreground "#000000" :box nil))))
-   
+   ;; Mode-line
+                                        ;'(mode-line ((t (:background "#B4B4B4" :foreground "#000000" :box nil))))
+
    `(modeline ((t (:background "#B4B4B4" :foreground "#000000"))))
    `(mode-line-inactive ((t (:box nil :background ,niklaus-mid-gray :foreground ,niklaus-light-gray-blue))))
    `(mode-line ((t (:box nil :foreground "#000000" :background "#B4B4B4"))))
@@ -80,7 +80,7 @@
    ;;'(font-lock-comment-face ((t (:foreground "#EFFBFF")))) ; Comentarios de en linea blanco
    ;;'(font-lock-comment-face ((t (:foreground "#9FB3C2")))) ; Comentarios de en linea grises
    ;;'(font-lock-comment-face ((t (:foreground "#F28B86")))) ; Comentarios de en linea rojo
-   ;'(font-lock-comment-face ((t (:foreground "#EB9490")))) ; Comentarios de en linea rojo claro 
+                                        ;'(font-lock-comment-face ((t (:foreground "#EB9490")))) ; Comentarios de en linea rojo claro
    '(font-lock-comment-face ((t (:foreground "#EC9F6F")))) ; Comentarios de linea naranja fuerte #EC9F6F o #F6AD80
    '(font-lock-doc-face ((t (:foreground "#EFFBFF")))) ;Docsting blanco
    ;; Function names
@@ -96,11 +96,11 @@
    '(font-lock-type-face ((t (:foreground "#93E4D0" :weight bold)))) ; Clases y types: verdeagua
    ;; '(font-lock-type-face ((t (:foreground "#FFA8A3" :weight semibold)))) ; Clases y types rojo claro #FFA8A3 o #FFA19B
 
-    ;; Constant
+   ;; Constant
    '(font-lock-constant-face ((t (:foreground "#BEC3D1" :weight semibold)))) ;Contastantes: azulgris #C8CBD5 o lightazul #add8e6, azulgris2 #BEC3D1
 
                                         ; Highlight linum color
-   '(linum ((t (:inherit (shadow default) :background "#000000" :foreground "#F3EFDE"))))         
+   '(linum ((t (:inherit (shadow default) :background "#000000" :foreground "#F3EFDE"))))
 
                                         ;Company
    '(company-preview ((t (:background "#373B41" :foreground "wheat"))))
@@ -122,7 +122,7 @@
 
                                         ;Tabs
    '(tab-bar ((t (:inherit variable-pitch :background "#000000" :foreground "#93E4D0"))))
-   '(tab-bar-tab-inactive ((t (:inherit tab-bar-tab :background "#000000" :foreground "#F6F3E8")))) 
+   '(tab-bar-tab-inactive ((t (:inherit tab-bar-tab :background "#000000" :foreground "#F6F3E8"))))
 
    ;; ---------------- Package Specific Stuff -----------
    ;; Powerline
@@ -135,12 +135,25 @@
    ;; ;;'(web-mode-html-tag-face ((t (:foreground "#EFFBFF"))));Color de los brackets
    '(web-mode-html-attr-name-face ((t (:foreground "#E9DCA7" :weight bold)))) ;amarillas
    '(web-mode-html-attr-value-face ((t (:foreground "#F4B3A0" :weight bold)))) ;naranjas
-   '(web-mode-comment-face ((t (:foreground "#EFFBFF" :weight bold)))) ;; Color blanco 
-   
-   
+   '(web-mode-comment-face ((t (:foreground "#EFFBFF" :weight bold)))) ;; Color blanco
+
+   ;;----------------- Diredfl -----------------------------
+   '(diredfl-date-time ((t (:foreground "#b8c4d7"))))
+   '(diredfl-dir-heading ((t (:foreground "#ceeca4"))))
+   '(diredfl-dir-name ((t (:foreground "#F0DFAF"))))
+   '(diredfl-dir-priv ((t (:foreground "#96e7e5"))))
+   '(diredfl-exec-priv ((t (:foreground "#D1907F"))))
+   '(diredfl-file-name ((t nil)))
+   '(diredfl-file-suffix ((t (:inherit diredfl-file-name))))
+   '(diredfl-no-priv ((t nil)))
+   '(diredfl-number ((t (:foreground "#F0DFAF"))))
+   '(diredfl-read-priv ((t (:foreground "#ceeca4"))))
+   '(diredfl-symlink ((t (:foreground "#96e7e5"))))
+   '(diredfl-write-priv ((t (:foreground "#F0DFAF"))))
+
    )
 
-)
+  )
 
 
 
